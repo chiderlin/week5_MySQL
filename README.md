@@ -3,11 +3,11 @@ practice MySQL command line to handle data
 
 
 ## 要求三
-### insert into user(name, username, password) values ("ply","ply","ply");
-### insert into user(name, usernamem password) values ("test1","test1","test1");
-### insert into user(name, usernamem password) values ("test2","test2","test2");
-### insert into user(name, usernamem password) values ("test3","test3","test3");
-### insert into user(name, usernamem password) values ("test4","test4","test4");
+#### insert into user(name, username, password) values ("ply","ply","ply");
+#### insert into user(name, usernamem password) values ("test1","test1","test1");
+#### insert into user(name, usernamem password) values ("test2","test2","test2");
+#### insert into user(name, usernamem password) values ("test3","test3","test3");
+#### insert into user(name, usernamem password) values ("test4","test4","test4");
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/1.JPG)
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/2.JPG)
 
