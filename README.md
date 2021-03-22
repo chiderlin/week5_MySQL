@@ -2,3 +2,57 @@
 practice MySQL command line to handle data
 
 
+## 要求三
+### insert into user(name, username, password) values ("ply","ply","ply");
+### insert into user(name, usernamem password) values ("test1","test1","test1");
+### insert into user(name, usernamem password) values ("test2","test2","test2");
+### insert into user(name, usernamem password) values ("test3","test3","test3");
+### insert into user(name, usernamem password) values ("test4","test4","test4");
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/1.JPG)
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/2.JPG)
+
+### select count(id) from user;
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/3.JPG)
+
+### select * from user order by time desc;
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4.JPG)
+
+### select * from user where id=2 or id=3 or id=4 order by time desc;
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/5.JPG)
+
+### select * from user where username="ply";
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/6.JPG)
+
+### select * from user where username="ply" and password="ply";
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/7.JPG)
+
+### update user set name="丁滿" where username="ply";
+### select * from user;
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/8.JPG)
+
+### truncate table user;
+### select * from user;
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/9.JPG)
+
+
+## 要求四
+create table message(
+    id bigint auto_increment,
+    user_id bigint not null,
+    content varchar(255) not null,
+    time datetime not null default now(),
+    primary key(id),
+    foreign key(user_id) references user(id)
+);
+show tables;
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-1.JPG)
+
+
+### select message.user_id, message.content, user.name from message
+### inner join user on message.user_id=user.id
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-2.JPG)
+
+
+### select message.user_id, message.content, user.name from message
+### inner join user on user.id=message.user_id where user.username="ply";
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-3.JPG)
