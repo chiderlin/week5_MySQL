@@ -37,12 +37,12 @@ practice MySQL command line to handle data
 
 ## 要求四
 #### create table message(
-####    id bigint auto_increment,
-####    user_id bigint not null,
-####    content varchar(255) not null,
-####    time datetime not null default now(),
-####    primary key(id),
-####    foreign key(user_id) references user(id)
+#### \t id bigint auto_increment,
+#### \t user_id bigint not null,
+#### \t content varchar(255) not null,
+#### \t time datetime not null default now(),
+#### \t primary key(id),
+#### \t foreign key(user_id) references user(id)
 #### );
 #### show tables;
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-1.JPG)
