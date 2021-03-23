@@ -80,4 +80,4 @@ https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-
 #### mysqldump -uroot -pXXXXXX website user message > PATH\data.sql
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/ok.JPG)
 
-# 成功取得sql檔
+### 成功取得sql檔
