@@ -36,14 +36,15 @@ practice MySQL command line to handle data
 
 
 ## 要求四
-#### create table message(
-####    id bigint auto_increment,
-####    user_id bigint not null,
-####    content varchar(255) not null,
-####    time datetime not null default now(),
-####    primary key(id),
-####    foreign key(user_id) references user(id)
-#### );
+create table message(
+<dd>id bigint auto_increment,</dd>
+<dd>user_id bigint not null,</dd>
+<dd>content varchar(255) not null,</dd>
+<dd>time datetime not null default now(),</dd>
+<dd>primary key(id),</dd>
+<dd>foreign key(user_id) references user(id)</dd>
+);
+
 #### show tables;
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-1.JPG)
 
@@ -56,3 +57,10 @@ practice MySQL command line to handle data
 ### select message.user_id, message.content, user.name from message
 ### inner join user on user.id=message.user_id where user.username="ply";
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-3.JPG)
+
+
+## 補充
+
+#### mysqldump: Got error: 2059: Authentication plugin 'caching_sha2_password' cannot be loaded: when trying to connect
+
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/error_msg.JPG)
