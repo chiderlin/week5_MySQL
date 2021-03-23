@@ -82,3 +82,7 @@ https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/ok.JPG)
 
 ### 成功取得sql檔
+---
+
+### Mysql其他語法取得sql資訊
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/補充.JPG)
