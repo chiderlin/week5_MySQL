@@ -36,14 +36,14 @@ practice MySQL command line to handle data
 
 
 ## 要求四
-create table message(
-<dd>id bigint auto_increment,</dd>
-<dd>user_id bigint not null,</dd>
-<dd>content varchar(255) not null,</dd>
-<dd>time datetime not null default now(),</dd>
-<dd>primary key(id),</dd>
-<dd>foreign key(user_id) references user(id)</dd>
-);
+#### create table message(
+####    id bigint auto_increment,
+####    user_id bigint not null,
+####    content varchar(255) not null,
+####    time datetime not null default now(),
+####    primary key(id),
+####    foreign key(user_id) references user(id)
+#### );
 
 #### show tables;
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4-1.JPG)
@@ -61,6 +61,16 @@ create table message(
 
 ## 補充
 
-#### mysqldump: Got error: 2059: Authentication plugin 'caching_sha2_password' cannot be loaded: when trying to connect
+#### - 錯誤:mysqldump要取出sql資料時無法通過驗證。
+**mysqldump: Got error: 2059: Authentication plugin 'caching_sha2_password' cannot be loaded: when trying to connect** 
 
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/error_msg.JPG)
+
+
+#### - 原因: mysql因為版本8.0使用caching_sha2_password，要改回以前mysql版本的mysql_native_password mode 
+資料來源:
+https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-password-cannot-be-loaded
+
+
+#### - 使用方法
+##### 
