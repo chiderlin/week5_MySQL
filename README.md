@@ -74,7 +74,7 @@ https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-
 
 
 ### - 使用方法
-##### alter user 'root'@'localhost'identified with mysql_native_password by 'yourpassword';
+##### alter user 'root'@'localhost' identified with mysql_native_password by 'yourpassword';
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/DEBUG.JPG)
 
 ### - cmd 輸入的指令
