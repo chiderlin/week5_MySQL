@@ -77,6 +77,7 @@ https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/DEBUG.JPG)
 
 ### - cmd 輸入的指令
+#### mysqldump -u帳號 -p密碼 DBName TableName > PATH\檔名.sql 
 #### mysqldump -uroot -pXXXXXX website user message > PATH\data.sql
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/ok.JPG)
 
