@@ -73,4 +73,4 @@ https://stackoverflow.com/questions/49194719/authentication-plugin-caching-sha2-
 
 
 ### - 使用方法
-##### 
+##### alter user 'root'@'localhost'identified with mysql_native_password by 'yourpassword';
