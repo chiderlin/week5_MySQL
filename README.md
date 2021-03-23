@@ -63,7 +63,7 @@ practice MySQL command line to handle data
 
 ### - 錯誤:mysqldump要取出sql資料時無法通過驗證。
 **mysqldump: Got error: 2059: Authentication plugin 'caching_sha2_password' cannot be loaded: when trying to connect** 
-
+(雖然這裡的語法也打錯，但先繼續~)
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/error_msg.JPG)
 
 
