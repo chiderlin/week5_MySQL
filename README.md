@@ -3,6 +3,7 @@ practice MySQL command line to handle data
 
 
 ## 要求三
+#### use website
 #### insert into user(name, username, password) values ("ply","ply","ply");
 #### insert into user(name, usernamem password) values ("test1","test1","test1");
 #### insert into user(name, usernamem password) values ("test2","test2","test2");
