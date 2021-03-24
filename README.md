@@ -18,7 +18,9 @@ practice MySQL command line to handle data
 ### select * from user order by time desc;
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/4.JPG)
 
-### select * from user where id=2 or id=3 or id=4 order by time desc;
+### 兩種寫法
+### 1. select * from user order by time desc limit 1, 3;
+### 2. select * from user order by time desc limit 3 offset 1;
 ![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/5.JPG)
 
 ### select * from user where username="ply";
