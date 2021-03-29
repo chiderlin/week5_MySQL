@@ -64,6 +64,15 @@ practice MySQL command line to handle data
 
 ## 補充
 
+### use cmd to login mysql server
+#### 到該路徑 => 指令: mysql -h localhost -u root -p
+#### (-h => host, -u => username, -p => password)
+![image](https://github.com/chiderlin/week5_MySQL/blob/main/pic/cmd_login_mysql.JPG)
+
+
+
+
+
 ### - (cmd 輸入的指令)錯誤:mysqldump要取出sql資料時無法通過驗證。
 **mysqldump: Got error: 2059: Authentication plugin 'caching_sha2_password' cannot be loaded: when trying to connect** 
 (雖然這裡的語法也打錯，但先繼續~)
